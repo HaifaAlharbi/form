@@ -1,0 +1,60 @@
+
+body{
+    background-color: rgb(206, 206, 206);
+font-size: 20px;
+margin: 100px;
+background-image: url("../img/p.png");
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+table{
+    display: none;
+  
+    font-size: medium;
+}
+#bl,#bll{
+    background-color:rgb(255, 255, 255);
+    align-items: center;
+    color: #fff;
+    border: #fff;
+}
+#regaster{
+ background-color: #fff;
+ margin:  110px 110px 110px 110px ;
+padding: 20px;
+    border-radius:20px 20px 20px 20px; 
+    border: 2px solid rgb(65, 52, 54);
+    color: rgba(15, 2, 5, 0.918);
+    width: 900px;
+}
+input-group-append,input-group-text{
+    text-align: left;
+}
+input{
+    height: 39px;
+}
+#val1,#val2,#adr,#cit,#sp,#co{
+    color:rgb(223, 45, 45);
+    display: none;
+}
+.input-group-append {
+    cursor: pointer;
+  }
+ #fname,#lname,#mname{
+     border: 2px solid rgb(28, 39, 39);
+     box-sizing: 4px;
+size: 31px;
+ }
+#sub{
+    cursor:pointer;
+}
+button:hover {
+    background: green;
+    color: #fff;
+    font-size: 20px;
+  }
+button {
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+  }
